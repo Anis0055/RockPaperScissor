@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="images">
+      <div class="choice" id="rock">
+        <img src="./Images/rock.png" alt="rock.png" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="./Images/paper.png" alt="paper.png" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="./Images/scissors.png" alt="scissors.png" />
+      </div>
+    </div>
+    <div class="score-board">
+      <div class="user-score" id="user">
+        <p id="scre">0</p>
+        <p>You</p>
+      </div>
+      <div class="comp-score" id="comp">
+        <p id="cmpe">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+    <div class="msg-container">
+      <p id="msg">Play Game!</p>
+    </div>
+    <div>
+       <button id="btn">Reset Game</button>
+    </div>
+  </body>
+</html>
